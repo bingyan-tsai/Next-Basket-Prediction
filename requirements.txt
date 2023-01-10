@@ -1,0 +1,7 @@
+
+os
+time
+tqdm
+pandas
+apyori
+pymysql
