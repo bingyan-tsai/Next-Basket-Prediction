@@ -7,14 +7,27 @@ We construct the model through methods like RFM analysis and Apriori to deal wit
 Based on the knowledge above, we predict customers' next basket through their order history and popular products during each period by segment after a simple RFM analysis. 
 Furthermore, we introduced the Apriori algorithm to the model at the end of the prediction.
 
-## Environment
+## main.py
+Pipeline of our analysis.
 
+## data_preparation.py
+1. 資料取得與資料清洗
+2. 將整理好的資料建檔
+
+## data_prediction.py
+1. 預測顧客最後一單商品
+2. 將預測結果輸出成檔案
+
+## algorithms.py
+1. 各式演算法的梳理
+2. 提供 data_prediction.py 所需資料
+
+## Environment
 ```
 Python 3.9.12
 ```
 
 ## Installation
-
 ```
 os
 time
@@ -23,7 +36,4 @@ pandas
 apyori
 pymysql
 ```
-
-
-
 
